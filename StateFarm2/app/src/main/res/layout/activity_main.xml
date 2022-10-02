@@ -9,14 +9,14 @@
 
     <ImageView
         android:id="@+id/EnterInfo"
-        android:layout_width="wrap_content"
-        android:layout_height="185dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="50dp"
+        android:layout_width="379dp"
+        android:layout_height="167dp"
         android:gravity="center"
-        android:src="@drawable/jake3"
-        android:text="Login" />
+        android:src="@drawable/jake4"
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <Button
@@ -24,6 +24,8 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="228dp"
+        android:backgroundTint="@color/white"
+        android:textColor="#F01716"
         android:text="Pet Insurance"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -36,6 +38,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Hospital Income"
+        android:backgroundTint="@color/white"
+        android:textColor="#F01716"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,6 +51,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Medicare Supplement"
+        android:backgroundTint="@color/white"
+        android:textColor="#F01716"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,6 +64,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Small Business"
+        android:backgroundTint="@color/white"
+        android:textColor="#F01716"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,6 +77,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Jake"
+        android:backgroundTint="@color/white"
+        android:textColor="#F01716"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"

@@ -6,4 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".Hospital">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="399dp"
+        android:layout_height="493dp"
+        android:layout_marginTop="72dp"
+        android:text="General Descriptions of Benefits
+Daily Benefit: State Farm pays $250 per day for up to 365 days when you are confined to a hospital for which a charge for room and board is made, for treatment of a covered sickness or injury.
+Intensive Care Benefit: State Farm pays an additional daily benefit of $250 for up to 14 days for the same or related condition when you are confined in an intensive care unit.
+Extended Care Benefit: State Farm pays one–half of the daily benefit per day ($125) for up to 60 days per calendar year when you are confined in a qualified extended care facility. The extended care must begin within 30 days of a hospital confinement of at least three days and be for the same or related condition requiring the hospital confinement.
+Emergency Accident Benefit: You will receive $250.00 for each day you sustain an injury and receive emergency medical treatment within 72 hours of the injury. Only one Emergency Accident Benefit is paid when multiple injuries are sustained as the result of any one accident. This benefit is payable up to a maximum of three times per calendar year per covered person.
+Outpatient Surgery and Intravascular Catheterization Benefit: State Farm pays $250.00 for each day you undergo an outpatient surgical operation (as identified in the policy) or intravascular catheterization (as defined in the policy).
+Benefits for outpatient surgery performed as the result of an injury are paid in addition to the Emergency Accident Benefit.
+
+Only one Outpatient Surgery and Intravascular Catheterization Benefit will be payable when multiple, bilateral, or incidental procedures are performed during the same treatment session.
+https://www.statefarm.com/insurance/health/supplemental-insurance/texas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="306dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="48dp"
+        android:text="Hospital Income"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

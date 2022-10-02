@@ -6,4 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".Medicare">
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="406dp"
+        android:layout_height="507dp"
+        android:layout_marginTop="56dp"
+        android:text="Also known as Medigap, State Farm Medicare Supplement plans work with Original Medicare Parts A and B. They help reduce your out-of-pocket costs by lowering or eliminating copays, coinsurance payments, and deductibles. Coverage is valid at Medicare-participating doctors and hospitals across the United States even when traveling. Plans are guaranteed to be renewable as long as you continue to pay your premiums. Medicare Supplement policies are compatible with Part D plans that can lower your prescription drug costs.
+
+Once you are a State Farm Medicare Supplement plan member, you may be eligible for additional services, benefits, or opportunities to add dental, vision, or hearing coverage. Additional premiums may apply. Talk with your State Farm agent to discuss your specific needs.
+https://www.medicareplans.com/medicare-supplement-plans/state-farm-medicare-supplement-reviews/"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="332dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="64dp"
+        android:textSize="32dp"
+        android:text="Medicare Supplement"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

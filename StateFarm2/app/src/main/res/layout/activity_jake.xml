@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".Jake">
 
+    <ImageView
+        android:id="@+id/EnterInfo"
+        android:layout_width="411dp"
+        android:layout_height="733dp"
+        android:gravity="center"
+        android:src="@drawable/jake"
+        android:text="Login" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

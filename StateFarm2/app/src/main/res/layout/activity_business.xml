@@ -6,4 +6,57 @@
     android:layout_height="match_parent"
     tools:context=".Business">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="408dp"
+        android:layout_height="504dp"
+        android:layout_marginTop="80dp"
+        android:text="State Farm offers the following types of business insurance, among others:
+
+Commercial auto insurance.
+
+General liability insurance.
+
+Workers’ compensation.
+
+Professional liability and errors and omissions insurance.
+
+Commercial liability umbrella coverage.
+
+Employment practices liability insurance.
+
+Inland marine and mobile property insurance.
+
+State Farm’s business owner's policy includes general liability, commercial property, business interruption and equipment breakdown coverage. Professional liability coverage can be added.
+
+The company also offers industry-specific packages that include the components of a business owner's policy along with additional specialized coverage.
+
+For instance:
+
+Commercial landlord insurance includes coverage that can defray the costs of bringing buildings up to code.
+
+HVAC contractor insurance includes coverage for equipment that moves from one location to another, plus coverage for injuries or property damage that takes place after work is done.
+
+Painters insurance includes installation floater coverage, which protects materials before and during installation.
+
+Notably, State Farm sells an umbrella policy that offers extra liability coverage in increments of $1 million. This makes it easy to add protection as your business grows.
+
+State Farm also offers group life insurance and retirement planning options for business owners and their employees.
+https://www.nerdwallet.com/article/small-business/state-farm-business-insurance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="295dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="60dp"
+        android:text="Small Business"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

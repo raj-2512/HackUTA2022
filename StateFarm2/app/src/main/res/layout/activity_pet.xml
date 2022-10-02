@@ -6,4 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".Pet">
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="405dp"
+        android:layout_height="497dp"
+        android:layout_marginTop="72dp"
+        android:text="Available plans
+State Farm covers veterinary care expenses resulting from unexpected injuries and illnesses. Included in its coverage are diagnostic tests, hospital stays, surgeries, medications and prescriptions, prosthetic devices, veterinary supplements, and herbal therapy.
+
+The policy also covers congenital and hereditary conditions that are breed-specific such as hip dysplasia, elbow dysplasia, diabetes, thyroid disease, and cherry eye.
+
+Waiting periods
+State Farm insurance for pets has a 30-day waiting period for illnesses, which is somewhat longer than the industry's standard, and a five-day waiting period for accidents.
+The price of your pet insurance policy with State Farm will depend on your pet’s age, breed, and location, as well as the deductible you choose. Deductibles can range up to $1,000 — the higher the deductible, the lower your monthly premium will be.
+
+Customers can also purchase add-ons to their policy, such as pet parent assistance and recovery care. The company has a 30-day money-back period and charges a $25 service fee which won’t be returned.
+https://www.pawlicy.com/blog/state-farm-pet-insurance/#review"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="282dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="36dp"
+        android:text="Pet Insurance"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
